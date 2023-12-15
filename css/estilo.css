@@ -1,0 +1,250 @@
+
+header {
+    background-color: #e9f8e5;
+    color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    margin-right: 1%;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 1%;
+    padding: 0;
+}
+section {
+    display: flex;
+}
+ section aside{
+ justify-content: center;
+ text-align: center;
+ border: 3px solid #217e24;
+ border-radius: 15px;
+ max-width: 600px; 
+ margin: 0 auto;
+ padding: 5px; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 2px solid #217e24;
+    color: #217e24;
+}
+
+th {
+    background-color: #92d182;
+}
+
+
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+ul{
+    padding: 1px;
+    line-height: 30px;
+    font-size: 1.1em;
+    color: #ffffff;
+}
+li{
+    margin-bottom: 1%;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border: 2px solid #92d182;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 1.1em;
+}
+
+li img{
+    max-width: 120px;
+    border: 2px solid #92d182;
+    border-radius: 50%;
+}
+
+
+button {
+    margin-right: 30px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 10px 40px;
+    background-color: #217e24;
+    line-height: 15px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button:hover{
+    background-color: #fff;
+    color: #3d9440;
+    border: 2px solid#3d9440;
+}
+
+p{
+    color: #217e24;
+    padding: 5px;
+    text-align: left;
+    font-size: 1.3em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+div span button{
+    padding: 10px;
+    background-color: transparent;
+    color: #217e24;
+}
+
+div span button:hover{
+    background-color:#3d9440;
+    color: #ffffff;
+}
+
+.esquerda{
+    float: left;
+}
+
+.direita{
+    float: right;
+}
+
+#logo {
+    width: 200px;
+    height: 200px;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/2/25/Instituto_Federal_do_Paran%C3%A1_-_Marca_Vertical_2015.svg') no-repeat center center;
+    background-size: cover;
+}
+
+#botoes {
+    margin-left: 7%;
+    display: flex;
+}
+
+#acess {
+    margin-left: auto;
+}
+#login {
+    margin-left: auto;
+}
+
+#areas {
+    background-color:#217e24;
+    color: #fefefe;
+    width: 190px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    margin-right: 1%;
+}
+
+#caixas{
+    display: inline-flex;
+}
+
+#box1{
+    margin: 2%;
+    border-radius: 20%;
+    color: #217e24;
+    background-color: #92d182;
+    width: 100px;
+    height: 60px;
+}
+
+#box2{
+    margin: 2%;
+    border-radius: 20%;
+    color:#92d182 ;
+    background-color:#217e24;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+}
+#box3{
+    margin: 2%;
+    border-radius: 20%;
+    padding: 30px;
+    color:#217e24;
+    background-color:#ffffff;
+    border: 2px solid #3d9440;
+    width: 100px;
+    height: 30;
+    
+}
+#box4{
+    margin: 2%;
+    border-radius: 20%;
+    padding: 20px;
+    color:#FFFFFF;
+    background-color:#217e24;
+    width: 70px;
+    height: 50;
+}
+#noticias {
+    background-color:#217e24;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    margin-right: 1%;
+}
+
+#titulo{
+    background-color: #217e24;
+    border-radius: 10px;
+    font-size: 1.6em;
+    padding: 10px;
+}
+
+.titulo_cron{
+    background-color: #217e24;
+    font-size: 1.6em;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+#subtitulo{
+        font-size: 1.2em;
+        padding: 5px;
+}
+
+#titulo, #subtitulo,.titulo_cron{
+    font-weight:bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff; 
+}
+
+#icones{
+    float: right;
+}
+
+.material-symbols-outlined {
+font-size: 2em;    
+font-variation-settings:
+  'FILL' 10,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
